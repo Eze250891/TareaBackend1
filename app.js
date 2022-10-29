@@ -27,6 +27,18 @@ app.get('/dividir/:divisor/:dividendo', (req, res) => {
     }
 })
 
+app.get('/suma/:num1/:num2', (req, res) => {
+  const num1 = parseInt(req.params.num1)
+  const num2 = parseInt(req.params.num2)
+  
+    if (req.params.num1 <= 1) {
+         res.json ("no se puede sumar con 0")
+        
+    }else {
+        res.json (num1+num2)
+    }
+})
+
 
 app.listen(port, ()=> {
     console.log(`example app listen on port ${port}`)
