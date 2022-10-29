@@ -1,0 +1,19 @@
+{
+  "name": "tarea-1",
+  "version": "1.0.0",
+  "description": "Tarea Backend",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eze250891/TareaBackend.git"
+  },
+  "author": "Ezequiel Di Giacomo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eze250891/TareaBackend/issues"
+  },
+  "homepage": "https://github.com/Eze250891/TareaBackend#readme"
+}
