@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Eze250891/TareaBackend/issues"
   },
-  "homepage": "https://github.com/Eze250891/TareaBackend#readme"
+  "homepage": "https://github.com/Eze250891/TareaBackend#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }

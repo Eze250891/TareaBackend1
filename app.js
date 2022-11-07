@@ -39,6 +39,31 @@ app.get('/suma/:num1/:num2', (req, res) => {
     }
 })
 
+app.get('/query', (req, res) => {
+    const num = parseInt(req.query.num);
+
+    if (num % 2 == 0) {
+        res.json ("par")
+       
+   }else {
+       res.json ("impar")
+   }
+    
+})
+
+app.get('/compras', (req, res) => {
+     console.log(req.query)
+    res.json({
+        product1: req.query.product1,
+        product2: req.query.product2,
+        product3: req.query.product3,
+        product4: req.query.product4,
+        product5: req.query.product5,
+        
+    })
+})
+
+
 
 app.listen(port, ()=> {
     console.log(`example app listen on port ${port}`)
